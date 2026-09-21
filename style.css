@@ -1,0 +1,61 @@
+/*style global et police*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #f4f7f6; 
+color: #333333;
+margin: 0%;
+padding: 0%;
+line-height: 1.6;
+}
+/*En-tête (Hero section)*/
+.hero{
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+color: white;
+text-align: center;
+padding: 60px 20px;
+margin-bottom: 30px;
+}
+.hero h1{
+    margin:0 0 10px 0;
+    font-size: 2.5em;
+}
+.subtile{
+    font-size: 1.2em ;
+    opacity: 0.9;
+}
+/* style des cartes (sections)*/
+.card {
+ background: white;
+
+ margin-bottom: 20px;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+.card h2 {
+    color: #2b5876;
+    margin-top: 0;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+ }
+/*listes*/
+ul {
+    padding-left: 20px;
+}
+ul li{
+    margin-bottom: 8px ;
+}
+/* centrer les elements si besoin */
+.center{
+    text-align: center;
+}
+/* Bouton stylé */
+.btn {
+    display: inline-block;
+    background-color: #4e4376;
+    color: white;
+padding: 10px 25px ;
+border-radius: 25px
+}
+
+
+    
